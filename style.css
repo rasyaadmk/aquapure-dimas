@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Fredoka', cursive;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+#navbarNav a {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(222, 222, 222);
+}
+
+#navbarNav a:active {
+    color: #fff;
+}
+
+#navbarNav a:hover {
+    color: #fff;
+}
+
+nav {
+    background-color: transparent; /* Warna latar belakang awal (sebelum animasi) */
+    box-shadow: none; /* Hapus bayangan awal */
+    transition: background-color 0.2s ease, box-shadow 0.2s ease; /* Animasi transisi 0.3 detik */
+}
+
+nav.navbg {
+    background-color: #115e66;/* Ganti warna latar belakang yang diinginkan */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan yang diinginkan */
+}
+
+section.hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url('assets/image/bg1.svg');
+    background-size: cover;
+}
+
+section.hero .row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section.hero .header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    line-height: 65px;
+}
+
+section.hero .subheader {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+section.hero .button {
+    margin-top: 20px;
+    
+}
+
+section.hero .button a {
+    font-size: medium;
+    padding: 20px 30px;
+    border-radius: 500px;
+    color: #115e66;
+    background-color: white;
+    border: 2px solid white;
+}
+
+section.hero .button a:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.heroimg {
+    width: 460px;
+}
+
+section.aboutus {
+    background-color: #e4e4e4;
+}
+
+section.aboutus .header, section.whatisstem .header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #115e66;
+    line-height: 75px;
+    font-family: 'Fredoka', cursive;
+}
+
+section.aboutus img {
+    width: 460px;
+}
+
+section.aboutus .row, section.whatisstem {
+    padding-top : 60px;
+    padding-bottom : 60px;
+}
+
+section.whatisstem .faicon {
+    font-size: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+section.whatisstem .card {
+    margin-top: 20px;
+    border-radius: 10%;
+    border: none;
+    padding: 30px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section.whatisstem .card:hover {
+    background-color: #115e66;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+section.whatisstem .card:hover .faicon {
+    color: black; /* atau warna lain yang diinginkan untuk ikon */
+}
