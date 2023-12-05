@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Fredoka', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .navbar-brand {
@@ -16,73 +22,102 @@
 
 #navbarNav a {
     font-family: 'Poppins', sans-serif;
-    color: rgb(222, 222, 222);
-}
-
-#navbarNav a:active {
-    color: #fff;
+    color: #565656;
+    font-weight: 600;
 }
 
 #navbarNav a:hover {
-    color: #fff;
+    color: #151515;
+}
+
+#navbarNav li .activenow {
+    color: #39ACB4;
 }
 
 nav {
-    background-color: transparent; /* Warna latar belakang awal (sebelum animasi) */
-    box-shadow: none; /* Hapus bayangan awal */
-    transition: background-color 0.2s ease, box-shadow 0.2s ease; /* Animasi transisi 0.3 detik */
+    background-color: transparent;
+    /* Warna latar belakang awal (sebelum animasi) */
+    box-shadow: none;
+    /* Hapus bayangan awal */
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    /* Animasi transisi 0.3 detik */
 }
 
 nav.navbg {
-    background-color: #115e66;/* Ganti warna latar belakang yang diinginkan */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan yang diinginkan */
-}
-
-section.hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url('assets/image/bg1.svg');
-    background-size: cover;
+    background-color: #115e66;
+    /* Ganti warna latar belakang yang diinginkan */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    /* Tambahkan bayangan yang diinginkan */
 }
 
 section.hero .row {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
+section.hero {
+    background-image: url('assets/image/heroblob.png');
+    /* cover */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
 section.hero .header {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    font-weight: 800;
-    color: white;
+    font-size: 61px;
+    font-weight: 600;
+    color: #151515;
     line-height: 65px;
+}
+
+section.hero .header .fw-bold {
+    color: #39ACB4;
 }
 
 section.hero .subheader {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    color: white;
+    color: #151515;
     line-height: 30px;
     margin-top: 20px;
 }
 
 section.hero .button {
     margin-top: 20px;
-    
 }
 
 section.hero .button a {
     font-size: medium;
-    padding: 20px 30px;
+    padding: 15px 60px;
     border-radius: 500px;
-    color: #115e66;
-    background-color: white;
-    border: 2px solid white;
+    color: white;
+    background: var(--main, linear-gradient(180deg, #35A8B0 0%, #4FC5CD 100%));
+    border: 2px solid #39ACB4;
 }
 
 section.hero .button a:hover {
+    color: #39ACB4;
+    background: transparent;
+    border: 2px solid #39ACB4;
+}
+
+section.hero .button-sec a {
+    color: #39ACB4;
+    background: transparent;
+    padding: 15px 30px;
+    border: 2px solid #39ACB4;
+}
+
+section.hero .button-sec a:hover {
     color: white;
-    background-color: transparent;
-    border: 2px solid white;
+    background: var(--main, linear-gradient(180deg, #35A8B0 0%, #4FC5CD 100%));
+    border: 2px solid #39ACB4;
+}
+
+section.hero .button-sec a:hover img {
+    fill: white;
 }
 
 .heroimg {
@@ -93,7 +128,8 @@ section.aboutus {
     background-color: #e4e4e4;
 }
 
-section.aboutus .header, section.whatisstem .header {
+section.aboutus .header,
+section.whatisstem .header {
     font-size: 40px;
     font-weight: 600;
     color: #115e66;
@@ -101,13 +137,22 @@ section.aboutus .header, section.whatisstem .header {
     font-family: 'Fredoka', cursive;
 }
 
+section.aboutus .subheader {
+    font-size: 16px;
+    font-weight: 400;
+    color: #115e66;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
 section.aboutus img {
     width: 460px;
 }
 
-section.aboutus .row, section.whatisstem {
-    padding-top : 60px;
-    padding-bottom : 60px;
+section.aboutus .row,
+section.whatisstem {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 section.whatisstem .faicon {
@@ -133,5 +178,6 @@ section.whatisstem .card:hover {
 }
 
 section.whatisstem .card:hover .faicon {
-    color: black; /* atau warna lain yang diinginkan untuk ikon */
+    color: black;
+    /* atau warna lain yang diinginkan untuk ikon */
 }
