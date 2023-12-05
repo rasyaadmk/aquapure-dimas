@@ -20,13 +20,13 @@ a {
     color: #fff;
 }
 
-#navbarNav a {
+#navbarNav .nav-item a {
     font-family: 'Poppins', sans-serif;
     color: #565656;
     font-weight: 600;
 }
 
-#navbarNav a:hover {
+#navbarNav .nav-item a:hover {
     color: #151515;
 }
 
@@ -43,6 +43,10 @@ nav {
     /* Animasi transisi 0.3 detik */
 }
 
+section.hero {
+    margin-top: 74px;
+}
+
 nav.navbg {
     background-color: #115e66;
     /* Ganti warna latar belakang yang diinginkan */
@@ -50,8 +54,27 @@ nav.navbg {
     /* Tambahkan bayangan yang diinginkan */
 }
 
+nav .subscribe-btn a {
+    font-size: medium;
+    padding: 10px 40px;
+    border-radius: 500px;
+    color: white;
+    background: var(--main, linear-gradient(180deg, #35A8B0 0%, #4FC5CD 100%));
+    border: 2px solid #39ACB4;
+}
+
+nav .search-btn a {
+    font-size: 20px;
+    color: #565656;
+    background-color: rgb(221, 221, 221);
+    margin-right: 20px;
+    padding: 10px 15px;
+    border: solid white 2px;
+    border-radius: 50%;
+}
+
 section.hero .row {
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -62,7 +85,6 @@ section.hero {
     background-repeat: no-repeat;
     background-position: right;
 }
-
 
 section.hero .header {
     font-size: 61px;
@@ -97,7 +119,9 @@ section.hero .button a {
     border: 2px solid #39ACB4;
 }
 
-section.hero .button a:hover {
+section.hero .button a:hover,
+nav .subscribe-btn a:hover,
+nav .search-btn a:hover {
     color: #39ACB4;
     background: transparent;
     border: 2px solid #39ACB4;
@@ -116,12 +140,25 @@ section.hero .button-sec a:hover {
     border: 2px solid #39ACB4;
 }
 
-section.hero .button-sec a:hover img {
+section.hero .button-sec a svg:hover {
     fill: white;
+}
+
+.button-sec img:nth-child(2) {
+    display: none;
+}
+
+.button-sec:hover img:nth-child(1) {
+    display: none;
+}
+
+.button-sec:hover img:nth-child(2) {
+    display: inline;
 }
 
 .heroimg {
     width: 460px;
+    margin-right: -50px;
 }
 
 section.aboutus {
