@@ -82,7 +82,7 @@ section.hero .row {
 }
 
 section.hero {
-    background-image: url('assets/image/heroblob.png');
+    background-image: url('assets/image/waterstream.svg');
     /* cover */
     background-size: contain;
     background-repeat: no-repeat;
