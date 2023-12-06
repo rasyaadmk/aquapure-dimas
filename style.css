@@ -115,7 +115,7 @@ section.hero .button {
 
 section.hero .button a {
     font-size: medium;
-    padding: 15px 60px;
+    padding: 15px 50px;
     border-radius: 500px;
     color: white;
     background: var(--main, linear-gradient(180deg, #35A8B0 0%, #4FC5CD 100%));
@@ -233,19 +233,19 @@ section.whatisstem .card:hover .faicon {
         max-width: 100% !important;
     }
 
-    .newsletter .newsletter-text  {
+    .newsletter .newsletter-text {
         padding-right: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .newsletter .newsletter-text  {
+    .newsletter .newsletter-text {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .newsletter .newsletter-text  {
+    .newsletter .newsletter-text {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
