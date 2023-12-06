@@ -23,15 +23,18 @@ a {
 #navbarNav .nav-item a {
     font-family: 'Poppins', sans-serif;
     color: #565656;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #navbarNav .nav-item a:hover {
-    color: #151515;
+    color: #39ACB4;
 }
 
-#navbarNav li .activenow {
+#navbarNav li .activehome,
+#navbarNav li .activeabout,
+#navbarNav li .activestem {
     color: #39ACB4;
+    border-bottom: solid #39ACB4 3px;
 }
 
 nav {
@@ -48,7 +51,7 @@ section.hero {
 }
 
 nav.navbg {
-    background-color: #115e66;
+    background-color: white;
     /* Ganti warna latar belakang yang diinginkan */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     /* Tambahkan bayangan yang diinginkan */
@@ -69,7 +72,7 @@ nav .search-btn a {
     background-color: rgb(221, 221, 221);
     margin-right: 20px;
     padding: 10px 15px;
-    border: solid white 2px;
+    border: solid transparent 2px;
     border-radius: 50%;
 }
 
@@ -130,7 +133,7 @@ nav .search-btn a:hover {
 section.hero .button-sec a {
     color: #39ACB4;
     background: transparent;
-    padding: 15px 30px;
+    padding: 13px 30px;
     border: 2px solid #39ACB4;
 }
 
