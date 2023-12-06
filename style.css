@@ -241,9 +241,35 @@ section.whatisstem .card:hover .faicon {
 }
 
 .newsletter .header {
-    color: #151515;
-    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 3px 3px #115e66;
+    font-family: 'Fredoka', cursive;
     font-weight: 600;
+}
+
+/*** Footer ***/
+section.footer ul li {
+    list-style-type: none;
+}
+
+section.footer ul li a {
+    color: #39ACB4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+section.footer .footerp1 {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+section.footer .footerp2 {
+    color: white;
+    background: var(--main, linear-gradient(180deg, #319ca3 0%, #4FC5CD 100%));
+}
+
+section.footer .footerp2 p {
+    padding-top: 20px;
 }
 
 @media (min-width: 992px) {
