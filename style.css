@@ -113,7 +113,8 @@ section.hero .button {
     margin-top: 20px;
 }
 
-section.hero .button a {
+section.hero .button a,
+section.aboutus .button a {
     font-size: medium;
     padding: 15px 50px;
     border-radius: 500px;
@@ -124,7 +125,8 @@ section.hero .button a {
 
 section.hero .button a:hover,
 nav .subscribe-btn a:hover,
-nav .search-btn a:hover {
+nav .search-btn a:hover,
+section.aboutus .button a:hover {
     color: #39ACB4;
     background: transparent;
     border: 2px solid #39ACB4;
@@ -164,6 +166,16 @@ section.hero .button-sec a svg:hover {
     margin-right: -50px;
 }
 
+.labelsection {
+    color: #39ACB4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: initial;
+}
+
+.labelsection:hover {
+    color: #39ACB4 !important;
+}
+
 section.aboutus {
     background-color: #ffff;
 }
@@ -186,7 +198,7 @@ section.aboutus .subheader {
 }
 
 section.aboutus img {
-    width: 460px;
+    width: 550px;
 }
 
 section.aboutus .row,
@@ -224,8 +236,14 @@ section.whatisstem .card:hover .faicon {
 
 /*** Newsletter ***/
 .newsletter {
-    background: url(../image/bg-video.png) center center no-repeat;
+    background: url('assets/image/bg2.svg') center center no-repeat;
     background-size: cover;
+}
+
+.newsletter .header {
+    color: #151515;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 @media (min-width: 992px) {
