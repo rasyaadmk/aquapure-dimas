@@ -32,7 +32,7 @@ a {
 
 #navbarNav li .activehome,
 #navbarNav li .activeabout,
-#navbarNav li .activestem {
+#navbarNav li .activepolicy {
     color: #39ACB4;
     border-bottom: solid #39ACB4 3px;
 }
@@ -114,7 +114,8 @@ section.hero .button {
 }
 
 section.hero .button a,
-section.aboutus .button a {
+section.aboutus .button a,
+section.privacy .button a {
     font-size: medium;
     padding: 15px 50px;
     border-radius: 500px;
@@ -126,7 +127,8 @@ section.aboutus .button a {
 section.hero .button a:hover,
 nav .subscribe-btn a:hover,
 nav .search-btn a:hover,
-section.aboutus .button a:hover {
+section.aboutus .button a:hover,
+section.privacy .button a:hover {
     color: #39ACB4;
     background: transparent;
     border: 2px solid #39ACB4;
@@ -181,7 +183,9 @@ section.aboutus {
 }
 
 section.aboutus .header,
-section.whatisstem .header {
+section.whatisstem .header,
+section.privacy .header,
+section.information .header {
     font-size: 40px;
     font-weight: 600;
     color: #115e66;
