@@ -212,7 +212,7 @@ section.whatisstem .card {
 }
 
 section.whatisstem .card:hover {
-    background-color: #115e66;
+    background-color: #49BEC6;
     color: white;
     transition: 0.2s ease-in;
 }
@@ -220,4 +220,32 @@ section.whatisstem .card:hover {
 section.whatisstem .card:hover .faicon {
     color: black;
     /* atau warna lain yang diinginkan untuk ikon */
+}
+
+/*** Newsletter ***/
+.newsletter {
+    background: url(../image/bg-video.png) center center no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .newsletter .container {
+        max-width: 100% !important;
+    }
+
+    .newsletter .newsletter-text  {
+        padding-right: calc(((100% - 960px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    .newsletter .newsletter-text  {
+        padding-right: calc(((100% - 1140px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1400px) {
+    .newsletter .newsletter-text  {
+        padding-right: calc(((100% - 1320px) / 2) + .75rem);
+    }
 }
