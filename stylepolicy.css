@@ -32,3 +32,21 @@ section.information .header-information {
     line-height: 30px;
     font-family: 'Poppins', sans-serif;
 }
+
+section.information .informationlist {
+    padding-left: 30px;
+}
+
+section.confirmation .textbox {
+    background-color: #39ACB4;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: -30px;
+}
+
+section.confirmation .text {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 0px;
+}

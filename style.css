@@ -32,7 +32,8 @@ a {
 
 #navbarNav li .activehome,
 #navbarNav li .activeabout,
-#navbarNav li .activepolicy {
+#navbarNav li .activepolicy,
+#navbarNav li .activedisclaimer {
     color: #39ACB4;
     border-bottom: solid #39ACB4 3px;
 }
