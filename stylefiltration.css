@@ -1,0 +1,22 @@
+section.introduction {
+    margin-top: 74px;
+}
+
+section.concept {
+    padding-top: 100px;
+}
+
+section.filtration-video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('assets/image/bg-stripe.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+section.filtration-video iframe {
+    border-radius: 20px;
+    outline: var(--main-color) solid 10px;
+}

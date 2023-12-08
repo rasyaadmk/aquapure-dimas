@@ -25,6 +25,21 @@ a:hover {
     color: inherit;
 }
 
+.button a {
+    font-size: medium;
+    padding: 15px 50px;
+    border-radius: 500px;
+    color: white;
+    background: var(--main, linear-gradient(180deg, #35A8B0 0%, #4FC5CD 100%));
+    border: 2px solid #39ACB4;
+}
+
+.button a:hover {
+    color: #39ACB4;
+    background: transparent;
+    border: 2px solid #39ACB4;
+}
+
 .header {
     font-size: 40px;
     font-weight: 600;
@@ -39,7 +54,8 @@ a:hover {
     color: #115e66;
     line-height: 22px;
     font-family: 'Poppins', sans-serif;
-
+    text-align: justify;
+    text-justify: auto;
 }
 
 .navbar-brand {
@@ -71,6 +87,14 @@ a:hover {
 #navbarNav li .activedropdown:hover {
     color: white;
     background-color: var(--main-color);
+}
+
+#navbarNav .fa-solid {
+    color: white;
+}
+
+#navbarNav .search-btn:hover .fa-solid {
+    color: var(--main-color);
 }
 
 nav {
@@ -148,27 +172,6 @@ section.hero .subheader {
 
 section.hero .button {
     margin-top: 20px;
-}
-
-section.hero .button a,
-section.aboutus .button a,
-section.privacy .button a {
-    font-size: medium;
-    padding: 15px 50px;
-    border-radius: 500px;
-    color: white;
-    background: var(--main, linear-gradient(180deg, #35A8B0 0%, #4FC5CD 100%));
-    border: 2px solid #39ACB4;
-}
-
-section.hero .button a:hover,
-nav .subscribe-btn a:hover,
-nav .search-btn a:hover,
-section.aboutus .button a:hover,
-section.privacy .button a:hover {
-    color: #39ACB4;
-    background: transparent;
-    border: 2px solid #39ACB4;
 }
 
 section.hero .button-sec a {
