@@ -63,6 +63,16 @@ a:hover {
     border-bottom: solid #39ACB4 3px;
 }
 
+#navbarNav li .activedropdown {
+    color: white;
+    background-color: var(--main-color);
+}
+
+#navbarNav li .activedropdown:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+
 nav {
     background-color: transparent;
     /* Warna latar belakang awal (sebelum animasi) */
