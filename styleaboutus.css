@@ -1,0 +1,178 @@
+section.headcover {
+    margin-top: 74px;
+    background: var(--main-gradient);
+    padding: 25px;
+}
+
+.linebreak {
+    margin: 0 auto;
+    width: 50%;
+    height: 3px;
+    background-color: var(--main-color);
+    display: block;
+    border-radius: 10px;
+}
+
+
+section.headcover .title-headcover {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.ourcare .subheader {
+    line-height: 30px;
+}
+
+section.ourcare ul {
+    line-height: 30px;
+}
+
+section.ourteam {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url('assets/image/bg3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.ourteam .subheader {
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+section.ourteam .card {
+    height: 200px;
+    width: 180px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px gray solid;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in;
+}
+
+/* teams */
+section.ourteam .ijal {
+    background-image: url('assets/image/teams/faizal.png');
+
+}
+
+section.ourteam .rolan {
+    background-image: url('assets/image/teams/rolan.jpg');
+
+}
+
+section.ourteam .acad {
+    background-image: url('assets/image/teams/acad.jpg');
+}
+
+section.ourteam .sekar {
+    background-image: url('assets/image/teams/sekar.jpeg');
+}
+
+section.ourteam .ijat {
+    background-image: url('assets/image/teams/ijat.jpg');
+}
+
+/* teams end */
+
+section.ourteam .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+section.ourteam .card:hover::before {
+    opacity: 1;
+}
+
+section.ourteam .card:hover {
+    transform: scale(1.2);
+}
+
+section.ourteam .card .card-body {
+    background: transparent;
+    border: none;
+    color: white;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    z-index: 2;
+}
+
+section.ourteam .card:hover .card-body {
+    opacity: 1;
+}
+
+section.ourteam .card .card-body h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.ourteam .card .card-body h5 .subheader2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #4ed1db;
+}
+
+section.contactus {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-image: url('assets/image/bg4.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+section.contactus .contactus-header {
+    color: white;
+}
+
+section.contactus .faicon {
+    font-size: 40px;
+    color: var(--main-color);
+    padding: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-inline: auto;
+}
+
+section.contactus .card {
+    width: 350px;
+    height: 320px;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: transparent 2px solid;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section.contactus .card:hover {
+    background-color: #49BEC6;
+    color: white;
+    transition: 0.2s ease-in;
+    border: white 2px solid;
+}
+
+section.contactus .card:hover .faicon {
+    color: var(--main-color);
+    /* atau warna lain yang diinginkan untuk ikon */
+}
