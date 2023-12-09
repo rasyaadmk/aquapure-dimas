@@ -156,13 +156,13 @@ section.contactus .card {
 }
 
 section.contactus .card:hover {
-    background-color: #49BEC6;
+    background-color: var(--sec-color);
     color: white;
     transition: 0.2s ease-in;
-    border: white 2px solid;
+    border: transparent 2px solid;
 }
 
 section.contactus .card:hover .faicon {
-    color: var(--main-color);
+    color: var(--sec-color);
     /* atau warna lain yang diinginkan untuk ikon */
 }

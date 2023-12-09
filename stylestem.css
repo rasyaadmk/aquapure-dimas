@@ -1,3 +1,7 @@
+iframe {
+    border-radius: 10px;
+}
+
 .linebreak {
     width: 100%;
     background-color: var(--main-color);
@@ -32,14 +36,16 @@ section.stem-introduction .subheader {
     color: white;
 }
 
-section.stem-introduction .button a {
+section.stem-introduction .button a,
+section.eduvid .footer-eduvid-btn {
     color: var(--main-color);
     background: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border: 2px solid transparent;
 }
 
-section.stem-introduction .button a:hover {
+section.stem-introduction .button a:hover,
+section.eduvid .footer-eduvid-btn:hover {
     color: white;
     background: transparent;
     border: 2px solid white;
@@ -68,6 +74,12 @@ section.section .linebreak {
 
 section.technology {
     background-color: var(--main-color);
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+section.technology .row {
+    padding-top: 30px;
 }
 
 section.technology .header,
@@ -77,4 +89,97 @@ section.technology .subheader {
 
 section.technology .linebreak {
     background-color: white;
+}
+
+section.technology .info-header {
+    color: white;
+}
+
+section.engineering {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+section.engineering .subheader {
+    text-align: justify;
+    text-justify: auto;
+    margin-inline: 100px;
+}
+
+section.mathematics {
+    background-color: white;
+
+}
+
+section.mathematics .cyan-bg {
+    background-color: var(--main-color);
+    border-radius: 200px 0 0 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+section.mathematics .linebreak {
+    background-color: white;
+}
+
+section.mathematics .header {
+    letter-spacing: 1px;
+}
+
+section.mathematics .subheader {
+    text-align: justify;
+    text-justify: auto;
+    margin-inline: 100px;
+}
+
+section.mathematics .button a {
+    color: var(--main-color);
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+}
+
+section.mathematics .button a:hover {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+section.mathematics .imgpdf {
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section.aqupapeek .container {
+    margin-top: -20px;
+    background: url('assets/image/aqupa-peeking.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+section.aqupapeek .container img {
+    margin-bottom: -40px;
+}
+
+section.eduvid {
+    background-color: var(--main-color);
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+section.eduvid .card {
+    padding: 20px;
+    white-space: normal;
+    border-radius: 20px;
+}
+
+section.eduvid .linebreak {
+    background-color: white;
+}
+
+section.eduvid .footer-eduvid {
+    color: white;
+    font-size: 20px;
 }
