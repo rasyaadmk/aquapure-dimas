@@ -26,6 +26,7 @@ a:hover {
 }
 
 .button a {
+    font-weight: 500;
     font-size: medium;
     padding: 15px 50px;
     border-radius: 500px;
@@ -49,13 +50,22 @@ a:hover {
 }
 
 .subheader {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #115e66;
-    line-height: 22px;
+    line-height: 25px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     text-justify: auto;
+}
+
+.linebreak {
+    margin: 0 auto;
+    width: 50%;
+    height: 3px;
+    background-color: var(--main-color);
+    display: block;
+    border-radius: 10px;
 }
 
 .navbar-brand {
@@ -212,6 +222,7 @@ section.hero .button-sec a svg:hover {
     color: #39ACB4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     cursor: initial;
+    background-color: white;
 }
 
 .labelsection:hover {

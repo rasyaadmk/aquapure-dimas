@@ -20,3 +20,34 @@ section.filtration-video iframe {
     border-radius: 20px;
     outline: var(--main-color) solid 10px;
 }
+
+section.waterpollutan {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+section.waterpollutan .pollutan-header span {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+section.waterpollutan .pollutan-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+section.waterpollutan .pollutan-subheader span {
+    font-weight: 700;
+
+}
+
+section.waterpollutan .pollutan-subheader {
+    font-size: 16px;
+    font-weight: 400;
+    color: #151515;
+    line-height: 22px;
+    text-align: justify;
+    text-justify: auto;
+}

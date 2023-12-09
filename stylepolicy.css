@@ -21,7 +21,9 @@ section.information .subheader {
 }
 
 section.information {
-    padding: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
     background-color: rgb(236, 236, 236);
 }
 
